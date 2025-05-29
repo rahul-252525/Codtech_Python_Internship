@@ -1,0 +1,46 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Good day", "Whats up"],
+        "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you", "Till next time"],
+        "responses": ["See you!", "Have a nice day!", "Bye! Come back again soon."],
+        "context_set": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"],
+        "context_set": ""
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "What should I call you?", "Who are you?"],
+        "responses": ["You can call me Bot.", "I'm Bot, your virtual assistant.", "I am a chatbot."],
+        "context_set": ""
+      },
+      {
+        "tag": "abilities",
+        "patterns": ["What can you do?", "What are your abilities?", "How can you help me?"],
+        "responses": ["I can answer your questions based on the data I'm trained on.", "I can help with general queries.", "I can chat with you!"],
+        "context_set": ""
+      },
+      {
+        "tag": "creator",
+        "patterns": ["Who created you?", "Who made you?", "Who is your developer?"],
+        "responses": ["I was created by a developer.", "I am a program developed by a human.", "A human coded me."],
+        "context_set": ""
+      },
+      {
+        "tag": "mood_query",
+        "patterns": ["How are you?", "How are you doing?", "Are you fine?", "How do you feel?"],
+        "responses": ["I'm doing great, thanks for asking!", "I'm just a program, but I'm functioning perfectly.", "I am well, thank you!", "As a bot, I don't have feelings, but I'm ready to help."],
+        "context_set": ""
+      }
+    ]
+  }
