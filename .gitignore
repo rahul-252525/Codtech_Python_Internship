@@ -1,0 +1,6 @@
+# Ignore temporary Excel files
+~$*.xlsx
+
+# Ignore generated reports (optional, if you don't want reports on GitHub)
+*.xlsx
+*.csv
